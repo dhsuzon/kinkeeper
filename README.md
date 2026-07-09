@@ -41,8 +41,8 @@ Follow these steps to run the application on your local machine:
    https://github.com/dhsuzon/assignment_7_kinkeeper.git
    ```
 2. Navigate to the project directory
-   1. cd assignment_7_kinkeeper
+   - cd assignment_7_kinkeeper
 3. Install dependencies
-   1. npm install
+   - npm install
 4. Run the development server
-   1. npm run dev
+   - npm run dev
