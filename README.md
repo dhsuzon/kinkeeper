@@ -1,17 +1,16 @@
 # 👥 KeenKeeper — Friendship Tracker
 
-**KeenKeeper** is a modern web application designed to help users keep their friendships alive. It allows you to track interactions, set contact goals, and visualize your social habits through analytics. Never lose touch with your close ones again!
+## Project Overview
+**KeenKeeper** is a modern, frontend-focused web application designed to help users keep their friendships alive. It allows you to track interactions, set contact goals, and visualize your social habits through analytics. Never lose touch with your close ones again!
+
+## Project Live Link:
+  [https://assignment-7-kinkeeper.vercel.app/](https://assignment-7-kinkeeper.vercel.app/)
 
 ---
 
-## 🚀 Live Demo
-[project_vercel_link](https://assignment-7-kinkeeper.vercel.app/)
-
----
-
-## 🛠️ Technologies Used
-- **Framework:** Next.js 16 / React.js
-- **Styling:** Tailwindcss daisyui
+## 🛠 Tech Stack
+- **Framework:** Next.js 16, React.js
+- **Styling:** Tailwind CSS, DaisyUI
 - **State Management:** React Context API
 - **Charts:** Recharts (for Analytics)
 - **Icons:** React Icons
@@ -20,20 +19,30 @@
 
 ---
 
-## ✨ Key Features
-
-### 1. 📊 Friendship Analytics
-Visualize your interaction patterns with a dynamic **Pie Chart**. It tracks the total count of Calls, Texts, and Video interactions from your timeline, giving you a clear picture of how you stay connected.
-
-### 2. ⏳ Interaction Timeline with Filtering
-Keep a detailed log of every check-in. The Timeline page records the date and type of every interaction. Plus, you can **filter** the history by category (Call, Text, or Video) to find specific memories easily.
-
-### 3. 🎯 Quick Check-In & Goal Tracking
-Add new interactions with a single click from the Friend Details page. Whether it's a quick text or a long video call, the app instantly updates your timeline and notifies you with a sleek toast notification.
+## ✨ Core Features
+- **Friendship Analytics:** Visualize interaction patterns with dynamic **Pie Charts** (Calls, Texts, Video).
+- **Interaction Timeline:** Detailed log of check-ins with date and category support.
+- **Advanced Filtering:** Easily filter your history by interaction type (Call, Text, or Video).
+- **Goal Tracking:** Instant update system for interactions with sleek toast notifications.
+- **Responsive UI:** Clean and mobile-friendly design for tracking on the go.
 
 ---
 
-## ⚙️ Installation & Setup
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/dhsuzon/assignment_7_kinkeeper.git](https://github.com/dhsuzon/assignment_7_kinkeeper.git)
+## 📦 Main Dependencies
+- `next`, `react`, `recharts`, `tailwindcss`, `daisyui`, `react-toastify`, `react-icons`
+
+---
+
+## 🚀 Step-by-Step Local Setup Guide
+Follow these steps to run the application on your local machine:
+
+1. **Clone the repository:**
+   ```
+   https://github.com/dhsuzon/assignment_7_kinkeeper.git
+   ```
+2. Navigate to the project directory
+   1. cd assignment_7_kinkeeper
+3. Install dependencies
+   1. npm install
+4. Run the development server
+   1. npm run dev
